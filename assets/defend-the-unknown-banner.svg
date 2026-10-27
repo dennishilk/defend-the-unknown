@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+  <title id="title">DEFEND THE UNKNOWN</title>
+  <desc id="desc">Stylized military outpost at dusk in the desert, with radar circles, watchtowers and the words DEFEND THE UNKNOWN.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#091222"/>
+      <stop offset=".6" stop-color="#1A2A39"/>
+      <stop offset="1" stop-color="#564339"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#735646"/>
+      <stop offset="1" stop-color="#362D2B"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#D8A06A" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#D8A06A" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#D8A06A" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="80%" cy="70%" r="68%">
+      <stop offset="0" stop-color="#E3A266" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#E3A266" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8CB8AE" stroke-width=".7" opacity=".11"/>
+    </pattern>
+    <filter id="text-shadow" x="-10%" y="-20%" width="130%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="420" fill="url(#sky)"/>
+  <rect width="1440" height="420" fill="url(#grid)"/>
+  <rect width="1440" height="420" fill="url(#haze)"/>
+  <g fill="#F5D1A9" opacity=".65">
+    <circle cx="130" cy="62" r="1.2"/><circle cx="188" cy="114" r="1"/><circle cx="490" cy="45" r="1.4"/>
+    <circle cx="769" cy="90" r="1.2"/><circle cx="1020" cy="47" r="1"/><circle cx="1368" cy="87" r="1.4"/>
+    <circle cx="910" cy="36" r=".8"/><circle cx="341" cy="78" r="1"/>
+  </g>
+  <g fill="none" stroke="#75AAB0" opacity=".30" stroke-width="1">
+    <circle cx="1227" cy="156" r="70"/><circle cx="1227" cy="156" r="122"/>
+    <circle cx="1227" cy="156" r="169"/>
+    <path d="M1058 156H1396M1227 -13V325"/>
+    <path d="M1227 156L1328 25" stroke="#CFB07E" stroke-width="2"/>
+  </g>
+  <path d="M1227 156L1333 22A169 169 0 0 1 1396 156Z" fill="#80C0AE" opacity=".08"/>
+  <path d="M0 285L120 250L220 278L350 222L435 259L615 229L746 280L889 236L1012 267L1160 220L1315 267L1440 238V420H0Z" fill="#33404A" opacity=".72"/>
+  <path d="M0 328Q155 288 326 318T695 315T1080 312T1440 303V420H0Z" fill="url(#sand)"/>
+  <path d="M0 359Q223 325 465 351T975 349T1440 336V420H0Z" fill="#272F33" opacity=".80"/>
+  <g fill="#19272C" stroke="#CDA06E" stroke-width="2" stroke-opacity=".55">
+    <path d="M980 318V252H1120V318Z"/>
+    <path d="M958 251H1143L1127 239H971Z"/>
+    <path d="M998 318V274H1041V318Z" fill="#38414A"/>
+    <path d="M1057 281H1103V304H1057Z" fill="#D4A36E" fill-opacity=".25"/>
+    <path d="M1151 321V278H1267V321Z"/>
+    <path d="M1135 277H1283L1276 268H1143Z"/>
+    <path d="M1201 322V288H1225V322Z" fill="#413D3A"/>
+  </g>
+  <g stroke="#CDA06E" stroke-width="2" fill="#1B2D33">
+    <path d="M913 320V228M947 320V228M903 230H959L951 218H910Z" stroke-width="4"/>
+    <path d="M917 248H944L934 237H927Z" fill="#CDA06E" fill-opacity=".23"/>
+    <path d="M1345 325V243M1376 325V243M1337 246H1385L1378 236H1342Z" stroke-width="3.5"/>
+    <path d="M1360 238V202" stroke-width="2"/>
+    <path d="M1358 201L1374 198" stroke-width="2"/>
+  </g>
+  <g stroke="#8C9A96" stroke-width="2" stroke-opacity=".50">
+    <path d="M871 323H1430"/><path d="M877 309H1427"/>
+    <path d="M900 310V337M925 310V337M950 310V337M975 310V337M1000 310V337M1025 310V337M1050 310V337M1075 310V337M1100 310V337M1125 310V337M1150 310V337M1175 310V337M1200 310V337M1225 310V337M1250 310V337M1275 310V337M1300 310V337M1325 310V337M1350 310V337M1375 310V337M1400 310V337"/>
+  </g>
+  <path d="M851 339H1440" stroke="#DFA269" stroke-width="1.5" opacity=".45"/>
+  <rect x="58" y="39" width="94" height="3" fill="#D9A470"/>
+  <text x="58" y="62" fill="#B8C5C4" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="4">DENNIS HILK / GAME PROJECT</text>
+  <text x="55" y="159" fill="#000" opacity=".36" filter="url(#text-shadow)" font-family="Arial,Helvetica,sans-serif" font-size="73" font-weight="900" letter-spacing="5">DEFEND THE</text>
+  <text x="55" y="241" fill="#000" opacity=".36" filter="url(#text-shadow)" font-family="Arial,Helvetica,sans-serif" font-size="94" font-weight="900" letter-spacing="2">UNKNOWN</text>
+  <text x="58" y="156" fill="#F1F3E9" font-family="Arial,Helvetica,sans-serif" font-size="73" font-weight="900" letter-spacing="5">DEFEND THE</text>
+  <text x="58" y="238" fill="#E1A970" font-family="Arial,Helvetica,sans-serif" font-size="94" font-weight="900" letter-spacing="2">UNKNOWN</text>
+  <rect x="58" y="260" width="668" height="2" fill="url(#edge)"/>
+  <text x="59" y="290" fill="#D9DDDA" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="2.3">BUILD YOUR OUTPOST  ·  TRUST YOUR PEOPLE  ·  QUESTION THE SILENCE</text>
+  <text x="58" y="371" fill="#C2B1A4" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="3">CONCEPT DESIGN / OCTOBER 2026</text>
+  <text x="1360" y="378" text-anchor="end" fill="#C2B1A4" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="3">OUTPOST // UNKNOWN</text>
+  <rect x="0.75" y=".75" width="1438.5" height="418.5" stroke="#B27F59" stroke-width="1.5" stroke-opacity=".60" fill="none"/>
+</svg>
